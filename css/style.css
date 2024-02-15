@@ -139,5 +139,13 @@ img {
     }
 }
 
-
-
+@media screen and (min-width: 481px) {
+    .lessons{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .container{
+        display: inline-block;
+    }
+}
